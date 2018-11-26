@@ -35,77 +35,73 @@ Estas instrucciones te permitiran conseguir una copia del proyecto y poder ejecu
 ### Prerequisitos
 
 Se necesitara instalar NojeJS. Link de descarga: https://nodejs.org/es/
+
+
 Para desarrollo y test, se necesitara un editor de texto. Te recomendamos VisualStudio code. Link: https://code.visualstudio.com/
+
+Si se desea descargar el proyecto por medio de la consola, se debe instalar git.
+Instrucciones para instalacion en ubuntu:
+```
+sudo apt-get update
+sudo apt-get install git
+```
 El resto de software necesario se instalara en futuros pasos. Si se desea instalar ahora, se necesita tener npm activo e instalar los loaders indicados arriba
 
-### Como iniciarlo
+### Configuracion y descarga
 
 Una guia de pasos para poder utilizar el proyecto.
 
-Say what the step will be
+Iniciamos por clonar el repositorio a la maquina local
 
 ```
-Give the example
+git clone https://github.com/jorge97710/ReactBoilerPlate.git
 ```
 
-And repeat
+Luego hay que acceder al folder del proyecto
 
 ```
-until finished
+cd ReactBoilerPlate
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+A continuacion instalamos el software necesario para la ejecucion del proyecto. Este es el que esta listado anteriormente dentro de loaders y dependencias (Se necesita tener instalado nodeJs/npm)
 
 ```
-Give an example
+npm install
 ```
 
-### And coding style tests
+## Iniciando 
 
-Explain what these tests test and why
+A continuacion indicamos los diferentes comandos para que se pueda utilizar la plataforma. 
+
+Si se desea correr la plataforma en modo development (cargando la informacion sin que este necesariamente generada dentro de "dist")
 
 ```
-Give an example
+npm run dev
 ```
 
-## Deployment
+Si se desea poner todos los archivos para ambiente de produccion. Esto significaria tener un codigo mas limpio, por ejemplo minimizando los archivos
 
-Add additional notes about how to deploy this on a live system
+```
+npm run prod
+```
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Desarrollado con
 
-## Contributing
+* [VisualStudio Code](https://code.visualstudio.com/) - Editor de texto
+* [Node JS](https://nodejs.org/es/) - Entorno de tiempo de ejecucion para servidor
+* [npm](https://www.npmjs.com/) - Manejo de paquetes de Node
+* [React](https://reactjs.org/) - Libreria de Javascript para manejo y desarrollo de interfaz y logica
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+## Manejo de versiones
 
-## Versioning
+El manejo de versiones sera realizaso en esta plataforma. (GitHub)
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+## Autores
 
-## Authors
+* **Jorge Azmitia** - *Initial work* - [jorge97710](https://github.com/jorge97710)
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+## Licencia
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Este proyecto se encuentra bajo la licencia MIT - ver archivo [LICENSE.md](LICENSE.md) para mas detalles
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
