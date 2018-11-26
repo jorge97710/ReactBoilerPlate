@@ -9,6 +9,21 @@ Dentro de este Repositorio se incluyen estos directorios y sus respectivos archi
     * index.html (Documento html que se utiliza dentro del ambiente cuando este se ejecuta)
   * src  (este directorio contiene los archivos que son base para la generacion del proyecto)
     * images (este directorio contiene las imagenes utilizadas dentro del proyecto)
+    * app.js (Javascript Base para el proyecto, dentro de este se incluye toda la logica de la aplicacion que se estara mostrando, asi como la creacion de los diferentes componentes
+    * app.scss (Sass)(Dentro de este archivo se incluyen todos los estilos utilizados, tanto para las cartas como para las imagenes y textos.)
+    * test.html (Plantilla base para el HTML del proyecto. este no incluye ningun contenido especifico, solo una estructura basica)
+    
+  * .babelrc (Archivo que indica las herramientas a utilizar para babel, el ambiente y loader)
+  * package-lock.json
+  * package.json (Este archivo incluye informacion del proyecto. Datos,versiones, descripcion. Incluye los comandos para poner a correr webpack. Informacion del autor. Informacion del Repositorio. Y por ultimo una lista de las dependencias utilizadas como desarrollador)
+  * README.md (Documento con especificaciones del proyecto "este documento")
+  * webpack.config.js (Archivo de configuracion de webpack. Dentro de este se detalla los archivos de entrada y salida para la generacion del javascipt que se agrega automaticamente al html. Incluye los modulos y reglas para utilizar los diferentes loaders que se tiene instalados. Se especifica informacion del web server para el developer. Por ultimo se especifica informacion de los plugins que se tiene instalados) Los diferentes plugins y loaders se listan a continuacion
+      * sass loader, este loader se utiliza para hacer la compilacion de sass a css
+      * css loader, este loader se utiliza para hacer una traduccion de css a JS. para que el mismo sea utilizado en la aplicacion
+      * style loader, este loader se utiliza para poder generar estilos de css en base a string de JS. los cuales se crean con el loader anterior
+      * babel loader, este loader se utiliza para hacer la transpliacion de archivos de JS o JSX
+      * file loader, este loader se utiliza para poder cargar en la aplicacion diferentes archivos. En este caso se especifica que funcione con imagenes en formato gif,png,jpg,jpeg,svg
+      * HTML webpack plugin, este plugin se utiliza para que tome de base el documento "test.html" y genere la version final para la aplicacion
  
 
 
