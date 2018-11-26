@@ -5,7 +5,7 @@ Un Ambiente totalmente configurado para poder crear y correr una aplicacion de R
 Dentro de este Repositorio se incluyen estos directorios:
 * dist
 * src
-** images
+  * images
 
 
 ## Getting Started
