@@ -1,4 +1,4 @@
-
+//Configuracion visual de ltitulo, para que el mismo este en el centro
 .titulo{
   display: block;
   margin-left: auto;
@@ -6,6 +6,8 @@
   width: 50%;
 }
 
+//Metodo para estilo de las cartas, en este se indica que imagen tiene la carta y si este se repetira o no
+//Tambien el tama;o de las mismas imagnes
 .card {
   //z-index: 1;
   //background-color: #ffc0cb;
@@ -22,6 +24,7 @@
 
 }
 
+//Estilo del board, declaramos como se hara el despliegue del board y la imagen de fondo del mismo
 .board {
   margin: 0 auto;
   display: -ms-flexbox;
