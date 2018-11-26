@@ -25,7 +25,14 @@ Dentro de este Repositorio se incluyen estos directorios y sus respectivos archi
       * file loader, este loader se utiliza para poder cargar en la aplicacion diferentes archivos. En este caso se especifica que funcione con imagenes en formato gif,png,jpg,jpeg,svg
       * HTML webpack plugin, este plugin se utiliza para que tome de base el documento "test.html" y genere la version final para la aplicacion
  
-
+## Que incluye
+* (10 puntos) Si entregan su proyecto en github
+* (5 puntos) Por implementar React
+* (5 puntos) Por implementar Babel
+* (5 puntos) Por implementar Webpack
+* (5 puntos) Por implementar Sass
+* (5 puntos) Por implementar loaders para imágenes
+* (30 puntos) Por explicar a través de un README bien formateado 
 
 
 ## Como empezar
