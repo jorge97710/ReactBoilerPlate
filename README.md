@@ -28,21 +28,19 @@ Dentro de este Repositorio se incluyen estos directorios y sus respectivos archi
 
 
 
-## Getting Started
+## Como empezar
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Estas instrucciones te permitiran conseguir una copia del proyecto y poder ejecutarlo en tu computadora. Esto para poder desarrollar y hacer tests. Ver las anotaciones de "como iniciarlo" para poder utilziar el proyecto.
 
-### Prerequisites
+### Prerequisitos
 
-What things you need to install the software and how to install them
+Se necesitara instalar NojeJS. Link de descarga: https://nodejs.org/es/
+Para desarrollo y test, se necesitara un editor de texto. Te recomendamos VisualStudio code. Link: https://code.visualstudio.com/
+El resto de software necesario se instalara en futuros pasos. Si se desea instalar ahora, se necesita tener npm activo e instalar los loaders indicados arriba
 
-```
-Give examples
-```
+### Como iniciarlo
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
+Una guia de pasos para poder utilizar el proyecto.
 
 Say what the step will be
 
