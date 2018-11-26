@@ -2,10 +2,15 @@
 
 Un Ambiente totalmente configurado para poder crear y correr una aplicacion de REACT desde 0. El proyecto actual contiene una aplicacion de react que puede ser utilizada como ejemplo para la creacion de nuevas aplicaciones. Se tienen comentarios detallados en cada una de las lineas del codigo. Tanto en el "app.js" que es la base de javascript que tenemos en el proyecto. como en el "test.html" que es donde se tiene la base de html para el proyecto.
 
-Dentro de este Repositorio se incluyen estos directorios:
-* dist
-* src
-  * images
+Dentro de este Repositorio se incluyen estos directorios y sus respectivos archivos:
+*ReactBoilerPlate
+ * dist (este directorio contiene los archivos generados al correr el servidor en modo de produccion)
+  * app.bundle.js (la union de todos los archivos de javascript utilizados en el src (esto dbee configurarse)
+  * index.html (Documento html que se utiliza dentro del ambiente cuando este se ejecuta)
+ * src  (este directorio contiene los archivos que son base para la generacion del proyecto)
+  * images (este directorio contiene las imagenes utilizadas dentro del proyecto)
+ 
+
 
 
 ## Getting Started
