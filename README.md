@@ -4,11 +4,11 @@ Un Ambiente totalmente configurado para poder crear y correr una aplicacion de R
 
 Dentro de este Repositorio se incluyen estos directorios y sus respectivos archivos:
 * ReactBoilerPlate
- * dist (este directorio contiene los archivos generados al correr el servidor en modo de produccion)
-  * app.bundle.js (la union de todos los archivos de javascript utilizados en el src (esto dbee configurarse)
-  * index.html (Documento html que se utiliza dentro del ambiente cuando este se ejecuta)
- * src  (este directorio contiene los archivos que son base para la generacion del proyecto)
-  * images (este directorio contiene las imagenes utilizadas dentro del proyecto)
+  * dist (este directorio contiene los archivos generados al correr el servidor en modo de produccion)
+    * app.bundle.js (la union de todos los archivos de javascript utilizados en el src (esto dbee configurarse)
+    * index.html (Documento html que se utiliza dentro del ambiente cuando este se ejecuta)
+  * src  (este directorio contiene los archivos que son base para la generacion del proyecto)
+    * images (este directorio contiene las imagenes utilizadas dentro del proyecto)
  
 
 
